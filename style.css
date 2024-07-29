@@ -1,0 +1,98 @@
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+   }  
+   
+   body{
+    height: 100vh;
+    background-image: linear-gradient(to right,#fa709a,#fee140 100%);
+   }
+   html{
+    font-size: 16px;
+   }
+   .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1em;
+   }
+   #turn span{
+    margin: auto;
+    padding: 10px;
+   }
+
+   .container{
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+   }
+
+   .btn-move{
+    background-color: #ffffff;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 8px;
+    font-size: 12vmin;
+    color:#d161ff ;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+   }
+   #btn-restart{
+    font-size: 1.3em;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #891652;
+    color: #fff;
+    border: none;
+   }
+
+   .popup{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-image: linear-gradient(to right,#fa709a,#fee140 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    gap: 1em;
+    font-size: 12vmin;
+   }
+
+
+   #btn-new-game{
+    font-size: 0.6em;
+    padding: 0.5em 1em;
+    background-color: #0a0027;
+    color: #fff;
+    border-radius: 0.2em;
+    border: none;
+   }
+
+   #message{
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+   }
+   .popup.hide{
+    display: none;
+   }
+
+   .glow{
+    background-color: #74e291;
+    transition: background 0.5s;
+   }
+
+
+
+
